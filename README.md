@@ -73,8 +73,6 @@ Using a number of encryption technologies, SSH provides a mechanism for
 - It should ask you to select an ssh key. 
 - If you dont have one, click create a new key pair and name it appropriately, then save it in a safe place once you launch instances.
 
-![](img/selectkeypair.png)
-
 - If successful you will access a dashborad to view all existing instances.
 
 
@@ -112,7 +110,7 @@ scp -i ~/.ssh/key <filename> ubuntu@serverip:~/destination
 - Follow the steps above to create another EC2 server.
 - 
 
-#### For step 1 
+#### For step 1 
 ```
 Make your you find an ubuntu 16.04 os because the commands for setting up mongodb 3.2.2 work in a Xenial environment.
 ```
