@@ -5,12 +5,13 @@
 - Gives full control over the guest OS on each instance.
 ```
 
-## Security Groups
+## Security Groups
 ```
 - Security groups act as virtual firewalls for EC2 instances.
 - Used to control incoming and outgoing traffic by defining rules for inbound and outbound traffic.
 ```
 - Rules can only be 'allow' rules i.e. cannot deny.
+```
 To open a port  to your Ip you can add security groups when creating your aws instance and specify which ports you want to point towards your IP.
 An inbound rule would be used open a port to a specific ip address. The source would be specified as 'My IP'.
 Similarly, an inbound rule can also allow access to all ip addresses by having the source as 'Anywhere'. This is not advisable.
